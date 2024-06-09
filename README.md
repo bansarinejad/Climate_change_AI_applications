@@ -1,1 +1,10 @@
 # Climate_change_AI_applications
+
+requirements:
+
+folium==0.12.1.post1
+mplcursors==0.5.2
+numpy==1.21.2
+pandas==1.3.4
+ipywidgets==8.0.2
+matplotlib==3.5.3
