@@ -1,10 +1,9 @@
-# Datasheet: *SDWPF sensor data* Lab 1
+# Datasheet: *SDWPF sensor data* Lab 2
 
 Author: DeepLearning.AI (DLAI)
 
 Files:
 	wtbdata_245days.csv
-	turb_location.csv
 
 ## Motivation
 
@@ -12,7 +11,7 @@ The dataset is a collection of mesurements from 134 wind turbines in a wind farm
 
 The information about the dataset has been published on ArXiv (https://arxiv.org/abs/2208.04360) and the data is available for download online (https://aistudio.baidu.com/aistudio/competition/detail/152/0/datasets)
 
-The data used in this notebook contains information from the wind turbines for a range of 245 days and consists of two separate .csv files.
+The data used in this notebook contains information from the wind turbines for a range of 245 days.
 
 ## Composition
 
@@ -36,9 +35,3 @@ Prtv: Reactive power measured in kW.
 Patv: Active power measured in kW
 
 The TurbID, Day and Tmstamp columns do not have any missing values. The rest of the columns have 49518 missing values each. The total number of rows is 4727520.
-
-
-turb_location.csv
-
-This dataframe contains locations of the turbines. It has three columns: TurbID, x, y. TurbID contains integers from 1 to 134, which are the unique ID's of the turbines. x and y columns contain locations. There are 134 rows in total and no missing data.
-
